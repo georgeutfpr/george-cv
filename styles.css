@@ -1,0 +1,90 @@
+/* Estilo para o corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+#header {
+  background-color: #4a90e2;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Estilo para a imagem de perfil */
+.profile-img {
+  border-radius: 50%;
+  border: 2px solid #333;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilo para a navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Estilo para links */
+nav a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
+/* Seletor de atributo para aplicar estilo ao link de email */
+a[href^="mailto:"] {
+  font-style: oblique;
+  color: #d9534f;
+}
+
+/* Estilo para seções de conteúdo */
+.content {
+  font-family: 'Times New Roman', serif;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+h2 {
+  color: #4a90e2;
+  text-decoration: underline;
+}
+
+/* Estilo para listas ordenadas */
+ol li {
+  margin-left: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 30px;
+}
+
+/* Pseudo-classe para parágrafos dentro da seção de resumo */
+.content p::first-line {
+  font-weight: bold;
+  color: #007acc;
+}
